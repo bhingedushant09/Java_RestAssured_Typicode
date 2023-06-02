@@ -9,29 +9,19 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.stream.Collectors;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import org.apache.commons.io.IOUtils;
 import org.testng.Assert;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.typicode.custom.CustomeValueReturn;
 import com.typicode.dataprovider.ReadExcelData;
 import com.typicode.util.Constants;
-
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.w3c.dom.Node;
 
 /*
 * #author - Dushant Bhinge 
@@ -46,12 +36,8 @@ public class RestAssuredUtil {
 	protected final ExtentTest test;
 	private static RequestSpecification reqspecf;
 	protected static Response response;
-	private Document document;
-	private NodeList nodeList;
-	private Element eElement;
 	private List<String> nodeValues;
 	private List<String> listValues;
-	private NodeList nodechildattributeList;
 	private int nodexcel;
 	private List<String> getuserId;
 	private JsonPath jpath;
