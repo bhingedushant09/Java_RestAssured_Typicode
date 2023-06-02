@@ -1,0 +1,10 @@
+com\typicode\util\PropertiesCache$LazyHolder.class
+com\typicode\util\PropertiesCache.class
+com\typicode\testreport\ExtentManager.class
+com\typicode\custom\CustomeValueReturn.class
+com\typicode\restassuredutil\RestAssuredUtil.class
+com\typicode\util\Utils.class
+com\typicode\dataprovider\ReadExcelData.class
+com\typicode\util\Constants.class
+com\typicode\execution\CommonExecution.class
+com\typicode\apisteps\TypicodeSteps.class

@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 27 11:01:27 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>374 seconds (374508 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_001_verifyResourcePostsSpecificId()'><b>typicode_test_001_verifyResourcePostsSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>10</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_002_verifyResourcePostsAllId()'><b>typicode_test_002_verifyResourcePostsAllId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>10</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_003_verifyResourceCommentsAllId()'><b>typicode_test_003_verifyResourceCommentsAllId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>12</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_004_verifyResourceAlbumsAllId()'><b>typicode_test_004_verifyResourceAlbumsAllId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_005_verifyResourcePhotosAllId()'><b>typicode_test_005_verifyResourcePhotosAllId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>41</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_006_verifyResourceTodosAllId()'><b>typicode_test_006_verifyResourceTodosAllId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_007_verifyResourceUsersAllId()'><b>typicode_test_007_verifyResourceUsersAllId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_008_verifyResourceCommentsSpecificId()'><b>typicode_test_008_verifyResourceCommentsSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>9</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_009_verifyResourceAlbumsSpecificId()'><b>typicode_test_009_verifyResourceAlbumsSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_010_verifyResourcePhotosSpecificId()'><b>typicode_test_010_verifyResourcePhotosSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>20</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_011_verifyResourceTodosSpecificId()'><b>typicode_test_011_verifyResourceTodosSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_012_verifyResourceUsersSpecificId()'><b>typicode_test_012_verifyResourceUsersSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_013_updateResourcePostsSpecificId()'><b>typicode_test_013_updateResourcePostsSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_014_updateResourceCommentsSpecificId()'><b>typicode_test_014_updateResourceCommentsSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_015_updateResourceAlbumsSpecificId()'><b>typicode_test_015_updateResourceAlbumsSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_016_updateResourcePhotosSpecificId()'><b>typicode_test_016_updateResourcePhotosSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>9</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_017_updateResourceTodosSpecificId()'><b>typicode_test_017_updateResourceTodosSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>9</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_018_updateResourceUsersSpecificId()'><b>typicode_test_018_updateResourceUsersSpecificId</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_019_createResourcePosts()'><b>typicode_test_019_createResourcePosts</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_020_createResourceComments()'><b>typicode_test_020_createResourceComments</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>9</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_021_createResourceAlbums()'><b>typicode_test_021_createResourceAlbums</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_022_createResourcePhotos()'><b>typicode_test_022_createResourcePhotos</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_023_createResourceTodos()'><b>typicode_test_023_createResourceTodos</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>9</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_024_createResourceUsers()'><b>typicode_test_024_createResourceUsers</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_025_deleteResourcePosts()'><b>typicode_test_025_deleteResourcePosts</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_026_deleteResourceComments()'><b>typicode_test_026_deleteResourceComments</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_027_deleteResourceAlbums()'><b>typicode_test_027_deleteResourceAlbums</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_028_deleteResourcePhotos()'><b>typicode_test_028_deleteResourcePhotos</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_029_deleteResourceTodos()'><b>typicode_test_029_deleteResourceTodos</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_030_deleteResourceUsers()'><b>typicode_test_030_deleteResourceUsers</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_031_createResourcePosts()'><b>typicode_test_031_createResourcePosts</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>9</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_032_createResourceComments()'><b>typicode_test_032_createResourceComments</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>9</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_033_createResourceAlbums()'><b>typicode_test_033_createResourceAlbums</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_034_createResourcePhotos()'><b>typicode_test_034_createResourcePhotos</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_035_createResourceTodos()'><b>typicode_test_035_createResourceTodos</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+<tr>
+<td title='com.typicode.test.TypicodeTest3.typicode_test_036_createResourceUsers()'><b>typicode_test_036_createResourceUsers</b><br>Test class: com.typicode.test.TypicodeTest3</td>
+<td></td>
+<td>8</td>
+<td>com.typicode.test.TypicodeTest3@1bd39d3c</td></tr>
+</table><p>
+</body>
+</html>

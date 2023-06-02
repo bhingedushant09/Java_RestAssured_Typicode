@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="36" passed="36" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-27T05:31:27Z" name="Suite" finished-at="2023-05-27T05:37:41Z" duration-ms="374508">
+    <groups>
+    </groups>
+    <test started-at="2023-05-27T05:31:27Z" name="Test" finished-at="2023-05-27T05:37:41Z" duration-ms="374508">
+      <class name="com.typicode.test.TypicodeTest3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:01:27Z" name="setUp" finished-at="2023-05-27T11:01:27Z" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_001_verifyResourcePostsSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:01:27Z" name="typicode_test_001_verifyResourcePostsSpecificId" finished-at="2023-05-27T11:01:38Z" duration-ms="10343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_001_verifyResourcePostsSpecificId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:01:38Z" name="afterMethod" finished-at="2023-05-27T11:01:38Z" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:01:38Z" name="setUp" finished-at="2023-05-27T11:01:38Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_002_verifyResourcePostsAllId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:01:38Z" name="typicode_test_002_verifyResourcePostsAllId" finished-at="2023-05-27T11:01:49Z" duration-ms="10798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_002_verifyResourcePostsAllId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:01:49Z" name="afterMethod" finished-at="2023-05-27T11:01:49Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:01:49Z" name="setUp" finished-at="2023-05-27T11:01:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_003_verifyResourceCommentsAllId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:01:49Z" name="typicode_test_003_verifyResourceCommentsAllId" finished-at="2023-05-27T11:02:01Z" duration-ms="12616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_003_verifyResourceCommentsAllId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:02:01Z" name="afterMethod" finished-at="2023-05-27T11:02:01Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:02:01Z" name="setUp" finished-at="2023-05-27T11:02:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_004_verifyResourceAlbumsAllId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:02:01Z" name="typicode_test_004_verifyResourceAlbumsAllId" finished-at="2023-05-27T11:02:10Z" duration-ms="8765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_004_verifyResourceAlbumsAllId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:02:10Z" name="afterMethod" finished-at="2023-05-27T11:02:10Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:02:10Z" name="setUp" finished-at="2023-05-27T11:02:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_005_verifyResourcePhotosAllId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:02:10Z" name="typicode_test_005_verifyResourcePhotosAllId" finished-at="2023-05-27T11:02:51Z" duration-ms="41244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_005_verifyResourcePhotosAllId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:02:51Z" name="afterMethod" finished-at="2023-05-27T11:02:51Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:02:51Z" name="setUp" finished-at="2023-05-27T11:02:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_006_verifyResourceTodosAllId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:02:51Z" name="typicode_test_006_verifyResourceTodosAllId" finished-at="2023-05-27T11:03:00Z" duration-ms="8933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_006_verifyResourceTodosAllId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:00Z" name="afterMethod" finished-at="2023-05-27T11:03:00Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:00Z" name="setUp" finished-at="2023-05-27T11:03:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_007_verifyResourceUsersAllId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:00Z" name="typicode_test_007_verifyResourceUsersAllId" finished-at="2023-05-27T11:03:09Z" duration-ms="8178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_007_verifyResourceUsersAllId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:09Z" name="afterMethod" finished-at="2023-05-27T11:03:09Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:09Z" name="setUp" finished-at="2023-05-27T11:03:09Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_008_verifyResourceCommentsSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:09Z" name="typicode_test_008_verifyResourceCommentsSpecificId" finished-at="2023-05-27T11:03:18Z" duration-ms="9118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_008_verifyResourceCommentsSpecificId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:18Z" name="afterMethod" finished-at="2023-05-27T11:03:18Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_009_verifyResourceAlbumsSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:18Z" name="typicode_test_009_verifyResourceAlbumsSpecificId" finished-at="2023-05-27T11:03:26Z" duration-ms="8295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_009_verifyResourceAlbumsSpecificId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:18Z" name="setUp" finished-at="2023-05-27T11:03:18Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:26Z" name="afterMethod" finished-at="2023-05-27T11:03:26Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:26Z" name="setUp" finished-at="2023-05-27T11:03:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_010_verifyResourcePhotosSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:26Z" name="typicode_test_010_verifyResourcePhotosSpecificId" finished-at="2023-05-27T11:03:47Z" duration-ms="20655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_010_verifyResourcePhotosSpecificId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:47Z" name="afterMethod" finished-at="2023-05-27T11:03:47Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_011_verifyResourceTodosSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:47Z" name="typicode_test_011_verifyResourceTodosSpecificId" finished-at="2023-05-27T11:03:55Z" duration-ms="8554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_011_verifyResourceTodosSpecificId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:47Z" name="setUp" finished-at="2023-05-27T11:03:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:55Z" name="afterMethod" finished-at="2023-05-27T11:03:56Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_012_verifyResourceUsersSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:56Z" name="typicode_test_012_verifyResourceUsersSpecificId" finished-at="2023-05-27T11:04:04Z" duration-ms="8137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_012_verifyResourceUsersSpecificId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:03:56Z" name="setUp" finished-at="2023-05-27T11:03:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:04Z" name="afterMethod" finished-at="2023-05-27T11:04:04Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_013_updateResourcePostsSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:04Z" name="typicode_test_013_updateResourcePostsSpecificId" finished-at="2023-05-27T11:04:13Z" duration-ms="8990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_013_updateResourcePostsSpecificId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:04Z" name="setUp" finished-at="2023-05-27T11:04:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:13Z" name="afterMethod" finished-at="2023-05-27T11:04:13Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:13Z" name="setUp" finished-at="2023-05-27T11:04:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_014_updateResourceCommentsSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:13Z" name="typicode_test_014_updateResourceCommentsSpecificId" finished-at="2023-05-27T11:04:22Z" duration-ms="8818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_014_updateResourceCommentsSpecificId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:22Z" name="afterMethod" finished-at="2023-05-27T11:04:22Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:22Z" name="setUp" finished-at="2023-05-27T11:04:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_015_updateResourceAlbumsSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:22Z" name="typicode_test_015_updateResourceAlbumsSpecificId" finished-at="2023-05-27T11:04:30Z" duration-ms="8837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_015_updateResourceAlbumsSpecificId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:30Z" name="afterMethod" finished-at="2023-05-27T11:04:31Z" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:31Z" name="setUp" finished-at="2023-05-27T11:04:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_016_updateResourcePhotosSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:31Z" name="typicode_test_016_updateResourcePhotosSpecificId" finished-at="2023-05-27T11:04:40Z" duration-ms="9006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_016_updateResourcePhotosSpecificId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:40Z" name="afterMethod" finished-at="2023-05-27T11:04:40Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:40Z" name="setUp" finished-at="2023-05-27T11:04:40Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_017_updateResourceTodosSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:40Z" name="typicode_test_017_updateResourceTodosSpecificId" finished-at="2023-05-27T11:04:49Z" duration-ms="9029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_017_updateResourceTodosSpecificId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:49Z" name="afterMethod" finished-at="2023-05-27T11:04:49Z" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:49Z" name="setUp" finished-at="2023-05-27T11:04:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_018_updateResourceUsersSpecificId()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:49Z" name="typicode_test_018_updateResourceUsersSpecificId" finished-at="2023-05-27T11:04:58Z" duration-ms="8959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_018_updateResourceUsersSpecificId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:58Z" name="afterMethod" finished-at="2023-05-27T11:04:58Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_019_createResourcePosts()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:58Z" name="typicode_test_019_createResourcePosts" finished-at="2023-05-27T11:05:07Z" duration-ms="8986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_019_createResourcePosts -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:04:58Z" name="setUp" finished-at="2023-05-27T11:04:58Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:07Z" name="afterMethod" finished-at="2023-05-27T11:05:07Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_020_createResourceComments()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:07Z" name="typicode_test_020_createResourceComments" finished-at="2023-05-27T11:05:16Z" duration-ms="9019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_020_createResourceComments -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:07Z" name="setUp" finished-at="2023-05-27T11:05:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:16Z" name="afterMethod" finished-at="2023-05-27T11:05:16Z" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:16Z" name="setUp" finished-at="2023-05-27T11:05:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_021_createResourceAlbums()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:16Z" name="typicode_test_021_createResourceAlbums" finished-at="2023-05-27T11:05:25Z" duration-ms="8988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_021_createResourceAlbums -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:25Z" name="afterMethod" finished-at="2023-05-27T11:05:25Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:25Z" name="setUp" finished-at="2023-05-27T11:05:25Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_022_createResourcePhotos()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:25Z" name="typicode_test_022_createResourcePhotos" finished-at="2023-05-27T11:05:34Z" duration-ms="8996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_022_createResourcePhotos -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:34Z" name="afterMethod" finished-at="2023-05-27T11:05:35Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_023_createResourceTodos()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:35Z" name="typicode_test_023_createResourceTodos" finished-at="2023-05-27T11:05:44Z" duration-ms="9021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_023_createResourceTodos -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:35Z" name="setUp" finished-at="2023-05-27T11:05:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:44Z" name="afterMethod" finished-at="2023-05-27T11:05:44Z" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:44Z" name="setUp" finished-at="2023-05-27T11:05:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_024_createResourceUsers()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:44Z" name="typicode_test_024_createResourceUsers" finished-at="2023-05-27T11:05:53Z" duration-ms="8938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_024_createResourceUsers -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:53Z" name="afterMethod" finished-at="2023-05-27T11:05:53Z" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_025_deleteResourcePosts()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:53Z" name="typicode_test_025_deleteResourcePosts" finished-at="2023-05-27T11:06:02Z" duration-ms="8806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_025_deleteResourcePosts -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:05:53Z" name="setUp" finished-at="2023-05-27T11:05:53Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:02Z" name="afterMethod" finished-at="2023-05-27T11:06:02Z" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_026_deleteResourceComments()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:02Z" name="typicode_test_026_deleteResourceComments" finished-at="2023-05-27T11:06:11Z" duration-ms="8846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_026_deleteResourceComments -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:02Z" name="setUp" finished-at="2023-05-27T11:06:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:11Z" name="afterMethod" finished-at="2023-05-27T11:06:11Z" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:11Z" name="setUp" finished-at="2023-05-27T11:06:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_027_deleteResourceAlbums()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:11Z" name="typicode_test_027_deleteResourceAlbums" finished-at="2023-05-27T11:06:20Z" duration-ms="8888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_027_deleteResourceAlbums -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:20Z" name="afterMethod" finished-at="2023-05-27T11:06:20Z" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:20Z" name="setUp" finished-at="2023-05-27T11:06:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_028_deleteResourcePhotos()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:20Z" name="typicode_test_028_deleteResourcePhotos" finished-at="2023-05-27T11:06:29Z" duration-ms="8878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_028_deleteResourcePhotos -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:29Z" name="afterMethod" finished-at="2023-05-27T11:06:29Z" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:29Z" name="setUp" finished-at="2023-05-27T11:06:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_029_deleteResourceTodos()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:29Z" name="typicode_test_029_deleteResourceTodos" finished-at="2023-05-27T11:06:38Z" duration-ms="8851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_029_deleteResourceTodos -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:38Z" name="afterMethod" finished-at="2023-05-27T11:06:38Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:38Z" name="setUp" finished-at="2023-05-27T11:06:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_030_deleteResourceUsers()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:38Z" name="typicode_test_030_deleteResourceUsers" finished-at="2023-05-27T11:06:47Z" duration-ms="8880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_030_deleteResourceUsers -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:47Z" name="afterMethod" finished-at="2023-05-27T11:06:47Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_031_createResourcePosts()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:47Z" name="typicode_test_031_createResourcePosts" finished-at="2023-05-27T11:06:56Z" duration-ms="9034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_031_createResourcePosts -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:47Z" name="setUp" finished-at="2023-05-27T11:06:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:56Z" name="afterMethod" finished-at="2023-05-27T11:06:56Z" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_032_createResourceComments()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:56Z" name="typicode_test_032_createResourceComments" finished-at="2023-05-27T11:07:05Z" duration-ms="9067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_032_createResourceComments -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:06:56Z" name="setUp" finished-at="2023-05-27T11:06:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:05Z" name="afterMethod" finished-at="2023-05-27T11:07:05Z" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:05Z" name="setUp" finished-at="2023-05-27T11:07:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_033_createResourceAlbums()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:05Z" name="typicode_test_033_createResourceAlbums" finished-at="2023-05-27T11:07:14Z" duration-ms="8854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_033_createResourceAlbums -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:14Z" name="afterMethod" finished-at="2023-05-27T11:07:14Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:14Z" name="setUp" finished-at="2023-05-27T11:07:14Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_034_createResourcePhotos()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:14Z" name="typicode_test_034_createResourcePhotos" finished-at="2023-05-27T11:07:23Z" duration-ms="8993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_034_createResourcePhotos -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:23Z" name="afterMethod" finished-at="2023-05-27T11:07:23Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="typicode_test_035_createResourceTodos()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:23Z" name="typicode_test_035_createResourceTodos" finished-at="2023-05-27T11:07:32Z" duration-ms="8834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_035_createResourceTodos -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:23Z" name="setUp" finished-at="2023-05-27T11:07:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:32Z" name="afterMethod" finished-at="2023-05-27T11:07:32Z" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:32Z" name="setUp" finished-at="2023-05-27T11:07:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="typicode_test_036_createResourceUsers()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:32Z" name="typicode_test_036_createResourceUsers" finished-at="2023-05-27T11:07:41Z" duration-ms="8846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typicode_test_036_createResourceUsers -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.typicode.test.TypicodeTest3@1bd39d3c]" started-at="2023-05-27T11:07:41Z" name="afterMethod" finished-at="2023-05-27T11:07:41Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.typicode.test.TypicodeTest3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

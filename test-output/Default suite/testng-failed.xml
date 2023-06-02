@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.typicode.test.TypicodeTest3">
+        <methods>
+          <include name="typicode_test_013_updateResourcePostsSpecificId"/>
+          <include name="typicode_test_015_updateResourceAlbumsSpecificId"/>
+          <include name="typicode_test_025_deleteResourcePosts"/>
+          <include name="typicode_test_030_deleteResourceUsers"/>
+          <include name="afterMethod"/>
+          <include name="typicode_test_019_createResourcePosts"/>
+          <include name="typicode_test_010_verifyResourcePhotosSpecificId"/>
+          <include name="typicode_test_024_createResourceUsers"/>
+          <include name="typicode_test_020_createResourceComments"/>
+          <include name="typicode_test_017_updateResourceTodosSpecificId"/>
+          <include name="typicode_test_026_deleteResourceComments"/>
+          <include name="typicode_test_012_verifyResourceUsersSpecificId"/>
+          <include name="typicode_test_008_verifyResourceCommentsSpecificId"/>
+          <include name="typicode_test_023_createResourceTodos"/>
+          <include name="typicode_test_028_deleteResourcePhotos"/>
+          <include name="typicode_test_029_deleteResourceTodos"/>
+          <include name="typicode_test_033_createResourceAlbums"/>
+          <include name="typicode_test_031_createResourcePosts"/>
+          <include name="typicode_test_011_verifyResourceTodosSpecificId"/>
+          <include name="typicode_test_014_updateResourceCommentsSpecificId"/>
+          <include name="typicode_test_021_createResourceAlbums"/>
+          <include name="typicode_test_034_createResourcePhotos"/>
+          <include name="typicode_test_036_createResourceUsers"/>
+          <include name="typicode_test_007_verifyResourceUsersAllId"/>
+          <include name="typicode_test_016_updateResourcePhotosSpecificId"/>
+          <include name="typicode_test_022_createResourcePhotos"/>
+          <include name="typicode_test_009_verifyResourceAlbumsSpecificId"/>
+          <include name="setUp"/>
+          <include name="typicode_test_018_updateResourceUsersSpecificId"/>
+          <include name="typicode_test_032_createResourceComments"/>
+          <include name="typicode_test_027_deleteResourceAlbums"/>
+          <include name="typicode_test_035_createResourceTodos"/>
+        </methods>
+      </class> <!-- com.typicode.test.TypicodeTest3 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

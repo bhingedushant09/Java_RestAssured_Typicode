@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]">
+  <test parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.typicode.test.TypicodeTest3">
+        <methods>
+          <include name="typicode_test_013_updateResourcePostsSpecificId"/>
+          <include name="typicode_test_004_verifyResourceAlbumsAllId"/>
+          <include name="typicode_test_003_verifyResourceCommentsAllId"/>
+          <include name="typicode_test_025_deleteResourcePosts"/>
+          <include name="afterMethod"/>
+          <include name="typicode_test_019_createResourcePosts"/>
+          <include name="typicode_test_010_verifyResourcePhotosSpecificId"/>
+          <include name="typicode_test_024_createResourceUsers"/>
+          <include name="typicode_test_020_createResourceComments"/>
+          <include name="typicode_test_026_deleteResourceComments"/>
+          <include name="typicode_test_012_verifyResourceUsersSpecificId"/>
+          <include name="typicode_test_005_verifyResourcePhotosAllId"/>
+          <include name="typicode_test_008_verifyResourceCommentsSpecificId"/>
+          <include name="typicode_test_023_createResourceTodos"/>
+          <include name="typicode_test_006_verifyResourceTodosAllId"/>
+          <include name="typicode_test_002_verifyResourcePostsAllId"/>
+          <include name="typicode_test_031_createResourcePosts"/>
+          <include name="typicode_test_011_verifyResourceTodosSpecificId"/>
+          <include name="typicode_test_014_updateResourceCommentsSpecificId"/>
+          <include name="typicode_test_021_createResourceAlbums"/>
+          <include name="typicode_test_007_verifyResourceUsersAllId"/>
+          <include name="typicode_test_022_createResourcePhotos"/>
+          <include name="typicode_test_009_verifyResourceAlbumsSpecificId"/>
+          <include name="setUp"/>
+          <include name="typicode_test_018_updateResourceUsersSpecificId"/>
+          <include name="typicode_test_001_verifyResourcePostsSpecificId"/>
+        </methods>
+      </class> <!-- com.typicode.test.TypicodeTest3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
